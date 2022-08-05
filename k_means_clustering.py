@@ -49,7 +49,7 @@ def calculate_cluster_mean(cluster):
     return cluster_mean
 
 # features = np.random.rand(250,2)
-features = np.array([[1, 2.2], [1.5, 4], [.9, 0], [3.2, 1.2], [3, 5], [7.8, 2.0], [4.1, 2], [3.6, 4], [4, 1.4]])
+features = np.array([[5, 3], [10, 15], [15, 12], [24, 10], [30, 45], [85, 70], [71, 80], [60, 78], [55, 52],[80, 91]])
 
 k_means = KMeans(k=2)
 (centroids, clusters)  = k_means.fit(features)
