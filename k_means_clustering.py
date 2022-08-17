@@ -1,3 +1,4 @@
+# %%
 import random
 import numpy as np
 import matplotlib.pyplot as plt
@@ -58,3 +59,4 @@ for key in clusters:
     plt.scatter([f[0] for f in clusters[key]], [f[1] for f in clusters[key]])
 plt.scatter([centroids[c][0] for c in centroids], [centroids[c][1] for c in centroids], s=2)
 plt.show()
+# %%
